@@ -1,80 +1,34 @@
+// 20220111165807
+// https://my-json-server.typicode.com/typicode/demo/db
+
 {
-  "payments": [
+  "posts": [
     {
-      "id": "1",
-      "date": "07/01/2022",
-      "value": 10,
-      "status": 1,
-      "ec": {
-        "companyName": "Quero2Pay",
-        "documentNumber": "22.382.680/0001-00"
-      },
-      "bankAccount": {
-        "name": "Nu pagamentos",
-        "branch": "260",
-        "account": "123456",
-        "digit": "7",
-        "ispb": "3333",
-        "compe": "321",
-        "documentNumber": "36.382.680/0001-00"
-      }
+      "id": 1,
+      "title": "Post 1"
     },
     {
-      "id": "2",
-      "date": "07/01/2022",
-      "value": 10,
-      "status": 2,
-      "ec": {
-        "companyName": "Quero2Pay",
-        "documentNumber": "44.382.680/0001-00"
-      },
-      "bankAccount": {
-        "name": "Nu pagamentos",
-        "branch": "260",
-        "account": "123456",
-        "digit": "7",
-        "ispb": "2222",
-        "compe": "321",
-        "documentNumber": "44.382.680/0001-00"
-      }
+      "id": 2,
+      "title": "Post 2"
     },
     {
-      "id": "3",
-      "date": "07/01/2022",
-      "value": 10,
-      "status": 3,
-      "ec": {
-        "companyName": "Quero2Pay",
-        "documentNumber": "36.382.680/0001-00"
-      },
-      "bankAccount": {
-        "name": "Nu pagamentos",
-        "branch": "260",
-        "account": "321456",
-        "digit": "8",
-        "ispb": "2213",
-        "compe": "432",
-        "documentNumber": "36.382.680/0001-00"
-      }
-    },
-    {
-      "id": "4",
-      "date": "07/01/2022",
-      "value": 10,
-      "status": 4,
-      "ec": {
-        "companyName": "Quero2Pay",
-        "documentNumber": "55.382.680/0001-00"
-      },
-      "bankAccount": {
-        "name": "Nu pagamentos",
-        "branch": "260",
-        "account": "123456",
-        "digit": "7",
-        "ispb": "2222",
-        "compe": "321",
-        "documentNumber": "36.382.680/0001-00"
-      }
+      "id": 3,
+      "title": "Post 3"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
