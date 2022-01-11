@@ -1,79 +1,79 @@
 {
   [
   {
-      id: "1",
-      date: "07/01/2022",
-      value: 10.00,
-      status: 1,
-      ec: {
-          companyName: "Quero2Pay",
-          documentNumber: "22.382.680/0001-00",
-      },
-      bankAccount: {
-          name: "Nu pagamentos",
-          branch: "260",
-          account: "123456",
-          digit: "7",
-          ispb: "3333",
-          compe: "321",
-          documentNumber: "36.382.680/0001-00"
-      }
-  },
-  {
-      id: "2",
-      date: "07/01/2022",
-      value: 10.00,
-      status: 2,
-      ec: {
-          companyName: "Quero2Pay",
-          documentNumber: "44.382.680/0001-00",
-      },
-      bankAccount: {
-          name: "Nu pagamentos",
-          branch: "260",
-          account: "123456",
-          digit: "7",
-          ispb: "2222",
-          compe: "321",
-          documentNumber: "44.382.680/0001-00"
-      }
-  },
-  {
-    id: "3",
-    date: "07/01/2022",
-    value: 10.00,
-    status: 3,
-    ec: {
-        companyName: "Quero2Pay",
-        documentNumber: "36.382.680/0001-00",
+    "id": "1",
+    "date": "07/01/2022",
+    "value": 10,
+    "status": 1,
+    "ec": {
+      "companyName": "Quero2Pay",
+      "documentNumber": "22.382.680/0001-00"
     },
-    bankAccount: {
-        name: "Nu pagamentos",
-        branch: "260",
-        account: "321456",
-        digit: "8",
-        ispb: "2213",
-        compe: "432",
-        documentNumber: "36.382.680/0001-00"
+    "bankAccount": {
+      "name": "Nu pagamentos",
+      "branch": "260",
+      "account": "123456",
+      "digit": "7",
+      "ispb": "3333",
+      "compe": "321",
+      "documentNumber": "36.382.680/0001-00"
     }
   },
   {
-    id: "4",
-    date: "07/01/2022",
-    value: 10.00,
-    status: 4,
-    ec: {
-        companyName: "Quero2Pay",
-        documentNumber: "55.382.680/0001-00",
+    "id": "2",
+    "date": "07/01/2022",
+    "value": 10,
+    "status": 2,
+    "ec": {
+      "companyName": "Quero2Pay",
+      "documentNumber": "44.382.680/0001-00"
     },
-    bankAccount: {
-        name: "Nu pagamentos",
-        branch: "260",
-        account: "123456",
-        digit: "7",
-        ispb: "2222",
-        compe: "321",
-        documentNumber: "36.382.680/0001-00"
+    "bankAccount": {
+      "name": "Nu pagamentos",
+      "branch": "260",
+      "account": "123456",
+      "digit": "7",
+      "ispb": "2222",
+      "compe": "321",
+      "documentNumber": "44.382.680/0001-00"
+    }
+  },
+  {
+    "id": "3",
+    "date": "07/01/2022",
+    "value": 10,
+    "status": 3,
+    "ec": {
+      "companyName": "Quero2Pay",
+      "documentNumber": "36.382.680/0001-00"
+    },
+    "bankAccount": {
+      "name": "Nu pagamentos",
+      "branch": "260",
+      "account": "321456",
+      "digit": "8",
+      "ispb": "2213",
+      "compe": "432",
+      "documentNumber": "36.382.680/0001-00"
+    }
+  },
+  {
+    "id": "4",
+    "date": "07/01/2022",
+    "value": 10,
+    "status": 4,
+    "ec": {
+      "companyName": "Quero2Pay",
+      "documentNumber": "55.382.680/0001-00"
+    },
+    "bankAccount": {
+      "name": "Nu pagamentos",
+      "branch": "260",
+      "account": "123456",
+      "digit": "7",
+      "ispb": "2222",
+      "compe": "321",
+      "documentNumber": "36.382.680/0001-00"
     }
   }
 ]
