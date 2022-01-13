@@ -1,80 +1,138 @@
 {
   "payments": [
-  {
-    "id": "1",
-    "date": "07/01/2022",
-    "value": 10,
-    "status": 1,
-    "ec": {
-      "companyName": "Quero2Pay",
-      "documentNumber": "22.382.680/0001-00"
+    {
+      "id": "1",
+      "date": "07/01/2022",
+      "value": 10,
+      "status": 1,
+      "ec": {
+        "companyName": "Quero2Pay",
+        "documentNumber": "22.382.680/0001-00"
+      },
+      "bankAccount": {
+        "name": "Nu pagamentos",
+        "branch": "260",
+        "account": "123456",
+        "digit": "7",
+        "ispb": "3333",
+        "compe": "321",
+        "documentNumber": "36.382.680/0001-00"
+      }
     },
-    "bankAccount": {
-      "name": "Nu pagamentos",
-      "branch": "260",
-      "account": "123456",
-      "digit": "7",
-      "ispb": "3333",
-      "compe": "321",
-      "documentNumber": "36.382.680/0001-00"
-    }
-  },
-  {
-    "id": "2",
-    "date": "07/01/2022",
-    "value": 10,
-    "status": 2,
-    "ec": {
-      "companyName": "Quero2Pay",
-      "documentNumber": "44.382.680/0001-00"
+    {
+      "id": "2",
+      "date": "07/01/2022",
+      "value": 10,
+      "status": 2,
+      "ec": {
+        "companyName": "Quero2Pay",
+        "documentNumber": "44.382.680/0001-00"
+      },
+      "bankAccount": {
+        "name": "Nu pagamentos",
+        "branch": "260",
+        "account": "123456",
+        "digit": "7",
+        "ispb": "2222",
+        "compe": "321",
+        "documentNumber": "44.382.680/0001-00"
+      }
     },
-    "bankAccount": {
-      "name": "Nu pagamentos",
-      "branch": "260",
-      "account": "123456",
-      "digit": "7",
-      "ispb": "2222",
-      "compe": "321",
-      "documentNumber": "44.382.680/0001-00"
-    }
-  },
-  {
-    "id": "3",
-    "date": "07/01/2022",
-    "value": 10,
-    "status": 3,
-    "ec": {
-      "companyName": "Quero2Pay",
-      "documentNumber": "36.382.680/0001-00"
+    {
+      "id": "3",
+      "date": "07/01/2022",
+      "value": 10,
+      "status": 3,
+      "ec": {
+        "companyName": "Quero2Pay",
+        "documentNumber": "36.382.680/0001-00"
+      },
+      "bankAccount": {
+        "name": "Nu pagamentos",
+        "branch": "260",
+        "account": "321456",
+        "digit": "8",
+        "ispb": "2213",
+        "compe": "432",
+        "documentNumber": "36.382.680/0001-00"
+      }
     },
-    "bankAccount": {
-      "name": "Nu pagamentos",
-      "branch": "260",
-      "account": "321456",
-      "digit": "8",
-      "ispb": "2213",
-      "compe": "432",
-      "documentNumber": "36.382.680/0001-00"
+    {
+      "id": "4",
+      "date": "07/01/2022",
+      "value": 10,
+      "status": 4,
+      "ec": {
+        "companyName": "Quero2Pay",
+        "documentNumber": "55.382.680/0001-00"
+      },
+      "bankAccount": {
+        "name": "Nu pagamentos",
+        "branch": "260",
+        "account": "123456",
+        "digit": "7",
+        "ispb": "2222",
+        "compe": "321",
+        "documentNumber": "36.382.680/0001-00"
+      }
     }
-  },
-  {
-    "id": "4",
-    "date": "07/01/2022",
-    "value": 10,
-    "status": 4,
-    "ec": {
-      "companyName": "Quero2Pay",
-      "documentNumber": "55.382.680/0001-00"
+  ],
+  "paymentSettlements": [
+    {
+      "merchantId": "1",
+      "merchantName": "Bar do zé",
+      "paymentPixStatus": 3,
+      "merchantAccount": {
+        "name": "Nu pagamentos",
+        "branch": "260",
+        "account": "123456",
+        "digitAccount": "7",
+        "ispb": "2222",
+        "compe": "321",
+        "documentNumber": "12.900.365/0001-51"
+      },
+      "settlementData": {
+        "id": "123",
+        "amount": 10.99,
+        "assetHolder": "12.900.365/0001-51",
+        "authorizationCodePix": "900150983cd24fb0d6963f7d28e17f72",
+        "batchId": "1",
+        "settlementDate": "13/01/2022",
+        "settlementObligationDate": "12/01/2022",
+        "settlementStatus": 1,
+        "tagData": {
+          "tagKey": "6786c78a6caa8c",
+          "tagProcessKey": "c7d6cs6cs76c7s6"
+        }
+      }
     },
-    "bankAccount": {
-      "name": "Nu pagamentos",
-      "branch": "260",
-      "account": "123456",
-      "digit": "7",
-      "ispb": "2222",
-      "compe": "321",
-      "documentNumber": "36.382.680/0001-00"
+    {
+      "merchantId": "2",
+      "merchantName": "Mercearia do Jaum",
+      "paymentPixStatus": 2,
+      "merchantAccount": {
+        "name": "Bradesco",
+        "branch": "237",
+        "account": "654321",
+        "digitAccount": "9",
+        "ispb": "60746948",
+        "compe": "321",
+        "documentNumber": "01.966.837/0001-52"
+      },
+      "settlementData": {
+        "id": "321",
+        "amount": 32.76,
+        "assetHolder": "01.966.837/0001-52",
+        "authorizationCodePix": "900150983cd24fb0d6963f7d28e17f72",
+        "batchId": "1",
+        "settlementDate": "13/01/2022",
+        "settlementObligationDate": "12/01/2022",
+        "settlementStatus": 1,
+        "tagData": {
+          "tagKey": "6786c78a6caa8c",
+          "tagProcessKey": "c7d6cs6cs76c7s6"
+        }
+      }
     }
-  }
-]
+  ]
 }
