@@ -79,59 +79,69 @@
   ],
   "paymentSettlements": [
     {
-      "merchantId": "1",
+      "merchantId": "24445",
       "merchantName": "Bar do zé",
-      "paymentPixStatus": 3,
-      "merchantAccount": {
-        "name": "Nu pagamentos",
-        "branch": "260",
-        "account": "123456",
-        "digitAccount": "7",
-        "ispb": "2222",
-        "compe": "321",
-        "documentNumber": "12.900.365/0001-51"
+      "settlement": {
+        "id": 36517,
+        "settlementObligationId": 94734,
+        "batchId": 296,
+        "statusId": 3,
+        "pixStatusId": 0,
+        "tagKey": "",
+        "tagProcessKey": "",
+        "assetHolderDocumentType": "CNPJ",
+        "assetHolder": "47518315000199",
+        "settlementDate": "2022-01-12T06:02:01-03:00",
+        "settlementObligationDate": "2022-01-12T00:00:00-03:00",
+        "amount": 7920,
+        "isRejected": false,
+        "nuLiquid": "",
+        "authorizationCodePix": ""
       },
-      "settlementData": {
-        "id": "123",
-        "amount": 10.99,
-        "assetHolder": "12.900.365/0001-51",
-        "authorizationCodePix": "900150983cd24fb0d6963f7d28e17f72",
-        "batchId": "1",
-        "settlementDate": "13/01/2022",
-        "settlementObligationDate": "12/01/2022",
-        "settlementStatus": 1,
-        "tagData": {
-          "tagKey": "6786c78a6caa8c",
-          "tagProcessKey": "c7d6cs6cs76c7s6"
-        }
+      "settlementAccount": {
+        "settlementId": 36517,
+        "documentType": "CNPJ",
+        "documentNumber": "47518315000199",
+        "branch": "0001",
+        "account": "12345678",
+        "accountDigit": "8",
+        "accountType": "CC",
+        "ispb": "31872495",
+        "name": "Banco C6 S.A.",
+        "code": "336"
       }
     },
     {
-      "merchantId": "2",
-      "merchantName": "Mercearia do Jaum",
-      "paymentPixStatus": 2,
-      "merchantAccount": {
-        "name": "Bradesco",
-        "branch": "237",
-        "account": "654321",
-        "digitAccount": "9",
-        "ispb": "60746948",
-        "compe": "321",
-        "documentNumber": "01.966.837/0001-52"
+      "merchantId": "1432",
+      "merchantName": "Mercearia do João",
+      "settlement": {
+        "id": 5361,
+        "settlementObligationId": 94734,
+        "batchId": 296,
+        "statusId": 2,
+        "pixStatusId": 0,
+        "tagKey": "",
+        "tagProcessKey": "",
+        "assetHolderDocumentType": "CNPJ",
+        "assetHolder": "22589589000148",
+        "settlementDate": "2022-01-12T06:02:01-03:00",
+        "settlementObligationDate": "2022-01-12T00:00:00-03:00",
+        "amount": 2344,
+        "isRejected": false,
+        "nuLiquid": "",
+        "authorizationCodePix": ""
       },
-      "settlementData": {
-        "id": "321",
-        "amount": 32.76,
-        "assetHolder": "01.966.837/0001-52",
-        "authorizationCodePix": "900150983cd24fb0d6963f7d28e17f72",
-        "batchId": "1",
-        "settlementDate": "13/01/2022",
-        "settlementObligationDate": "12/01/2022",
-        "settlementStatus": 1,
-        "tagData": {
-          "tagKey": "6786c78a6caa8c",
-          "tagProcessKey": "c7d6cs6cs76c7s6"
-        }
+      "settlementAccount": {
+        "settlementId": 5361,
+        "documentType": "CNPJ",
+        "documentNumber": "22589589000148",
+        "branch": "0001",
+        "account": "87654321",
+        "accountDigit": "2",
+        "accountType": "CC",
+        "ispb": "31872495",
+        "name": "Banco C6 S.A.",
+        "code": "336"
       }
     }
   ]
