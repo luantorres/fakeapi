@@ -65,6 +65,72 @@
         "name": "Banco C6 S.A.",
         "code": "336"
       }
+    },
+    {
+      "merchantId": "24445",
+      "merchantName": "Bar do zé",
+      "settlement": {
+        "id": 36517,
+        "settlementObligationId": 94734,
+        "batchId": 296,
+        "statusId": 1,
+        "pixStatusId": 0,
+        "tagKey": "",
+        "tagProcessKey": "",
+        "assetHolderDocumentType": "CNPJ",
+        "assetHolder": "47518315000199",
+        "settlementDate": "2022-01-12T06:02:01-03:00",
+        "settlementObligationDate": "2022-01-12T00:00:00-03:00",
+        "amount": 7920,
+        "isRejected": false,
+        "nuLiquid": "",
+        "authorizationCodePix": ""
+      },
+      "settlementAccount": {
+        "settlementId": 36517,
+        "documentType": "CNPJ",
+        "documentNumber": "47518315000199",
+        "branch": "0001",
+        "account": "12345678",
+        "accountDigit": "8",
+        "accountType": "CC",
+        "ispb": "31872495",
+        "name": "Banco C6 S.A.",
+        "code": "336"
+      }
+    },
+    {
+      "merchantId": "1432",
+      "merchantName": "Mercearia do João",
+      "settlement": {
+        "id": 1314,
+        "settlementObligationId": 94734,
+        "batchId": 296,
+        "statusId": 4,
+        "pixStatusId": 0,
+        "tagKey": "",
+        "tagProcessKey": "",
+        "assetHolderDocumentType": "CNPJ",
+        "assetHolder": "22589589000148",
+        "settlementDate": "2022-01-12T06:02:01-03:00",
+        "settlementObligationDate": "2022-01-12T00:00:00-03:00",
+        "amount": 2344,
+        "isRejected": false,
+        "nuLiquid": "",
+        "authorizationCodePix": ""
+      },
+      "settlementAccount": {
+        "settlementId": 4231,
+        "documentType": "CNPJ",
+        "documentNumber": "22589589000148",
+        "branch": "0001",
+        "account": "87654321",
+        "accountDigit": "2",
+        "accountType": "CC",
+        "ispb": "31872495",
+        "name": "Banco C6 S.A.",
+        "code": "336"
+      }
     }
   ]
 }
