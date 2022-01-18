@@ -70,7 +70,7 @@
       "merchantId": "24445",
       "merchantName": "Bar do zé",
       "settlement": {
-        "id": 36517,
+        "id": 2222,
         "settlementObligationId": 94734,
         "batchId": 296,
         "statusId": 1,
@@ -87,7 +87,7 @@
         "authorizationCodePix": ""
       },
       "settlementAccount": {
-        "settlementId": 36517,
+        "settlementId": 2222,
         "documentType": "CNPJ",
         "documentNumber": "47518315000199",
         "branch": "0001",
@@ -120,7 +120,7 @@
         "authorizationCodePix": ""
       },
       "settlementAccount": {
-        "settlementId": 4231,
+        "settlementId": 1314,
         "documentType": "CNPJ",
         "documentNumber": "22589589000148",
         "branch": "0001",
